@@ -1,0 +1,126 @@
+\usepackage[a-2u]{pdfx}
+\catcode30=12
+
+\usepackage[
+   backend=biber
+%  ,style=iso-authoryear
+  ,style=alphabetic
+  ,citestyle=numeric
+  ,sortlocale=cs_CZ
+  ,bibencoding=UTF8
+  %,block=ragged
+]{biblatex}
+\addbibresource{references.bib}
+
+%% Přepneme na českou sazbu, fonty Latin Modern a kódování češtiny
+\usepackage[czech]{babel}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage[utf8]{inputenc}
+
+% Set fonts
+\RequirePackage[osf]{mathpazo} % Palatino with oldstyle figures
+\newcommand\liningnums[1]{\fontfamily{ppl}\selectfont#1}
+\RequirePackage{eulervm}
+\RequirePackage[scaled=.8819]{sourcecodepro} % Source Code Pro typeface for monospace
+
+%%% Další užitečné balíčky (jsou součástí běžných distribucí LaTeXu)
+\usepackage{amsmath}        % rozšíření pro sazbu matematiky
+\usepackage{amsfonts}       % matematické fonty
+\usepackage{amsthm}         % sazba vět, definic apod.
+\usepackage{bm}             % tučné symboly (příkaz \bm)
+\usepackage{graphicx}       % vkládání obrázků
+\usepackage{fancyvrb}       % vylepšené prostředí pro strojové písmo
+\usepackage{fancyhdr}       % prostředí pohodlnější nastavení hlavy a paty stránek
+\usepackage{icomma}         % inteligetní čárka v matematickém módu
+\usepackage{dcolumn}        % lepší zarovnání sloupců v tabulkách
+\usepackage{booktabs}       % lepší vodorovné linky v tabulkách
+\makeatletter
+\@ifpackageloaded{xcolor}{
+   \@ifpackagewith{xcolor}{usenames}{}{\PassOptionsToPackage{usenames}{xcolor}}
+  }{\usepackage[usenames]{xcolor}} % barevná sazba
+\makeatother
+\usepackage{multicol}       % práce s více sloupci na stránce
+\usepackage{caption}
+\usepackage{enumitem}
+\usepackage{lipsum}
+\setlist[itemize]{noitemsep, topsep=0pt, partopsep=0pt}
+\setlist[enumerate]{noitemsep, topsep=0pt, partopsep=0pt}
+\setlist[description]{noitemsep, topsep=0pt, partopsep=0pt}
+\usepackage{pdfpages}
+
+\usepackage{tocloft}
+\setlength\cftparskip{0pt}
+\setlength\cftbeforechapskip{1.5ex}
+\setlength\cftfigindent{0pt}
+\setlength\cfttabindent{0pt}
+\setlength\cftbeforeloftitleskip{0pt}
+\setlength\cftbeforelottitleskip{0pt}
+\setlength\cftbeforetoctitleskip{0pt}
+\renewcommand{\cftlottitlefont}{\Huge\bfseries}
+\renewcommand{\cftloftitlefont}{\Huge\bfseries}
+\renewcommand{\cfttoctitlefont}{\Huge\bfseries}
+
+% vyznaceni odstavcu
+\parindent=0pt
+\parskip=11pt
+
+% zakaz vdov a sirotku - jednoradkovych pocatku ci koncu odstavcu na prechodu mezi strankami
+\clubpenalty=1000
+\widowpenalty=1000
+\displaywidowpenalty=1000
+
+% nastaveni radkovani
+\renewcommand{\baselinestretch}{1.20}
+
+% nastavení hlavy a paty stránek
+\fancyhf{}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\fancyhead[RO,LE]{\leftmark}
+\fancyfoot[RO,LE]{\thepage}
+%\renewcommand{\footrulewidth}{0pt}
+\fancypagestyle{plain}{%
+\fancyhf{} % clear all header and footer fields
+\fancyfoot[RO,LE]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+%\renewcommand{\footrulewidth}{0.5pt}
+}
+
+% Tato makra přesvědčují mírně ošklivým trikem LaTeX, aby hlavičky kapitol
+% sázel příčetněji a nevynechával nad nimi spoustu místa. Směle ignorujte.
+\makeatletter
+\def\@makechapterhead#1{
+  {\parindent \z@ \raggedright 
+   \Huge\bfseries \thechapter. #1
+   \par\nobreak
+   \vskip 20\p@
+}}
+\def\@makeschapterhead#1{
+  {\parindent \z@ \raggedright 
+   \Huge\bfseries #1
+   \par\nobreak
+   \vskip 20\p@
+}}
+\makeatother
+
+% Trochu volnější nastavení dělení slov, než je default.
+\lefthyphenmin=2
+\righthyphenmin=2
+
+% Zapne černé "slimáky" na koncích řádků, které přetekly, abychom si
+% jich lépe všimli.
+\overfullrule=1mm
+
+%% Balíček hyperref, kterým jdou vyrábět klikací odkazy v PDF,
+%% ale hlavně ho používáme k uložení metadat do PDF (včetně obsahu).
+%% Většinu nastavítek přednastaví balíček pdfx.
+\hypersetup{unicode}
+\hypersetup{breaklinks=true}
+\hypersetup{hidelinks}
+
+%%% Prostředí pro sazbu kódu, případně vstupu/výstupu počítačových
+%%% programů. (Vyžaduje balíček fancyvrb -- fancy verbatim.)
+
+\DefineVerbatimEnvironment{code}{Verbatim}{fontsize=\small, frame=single}
+
