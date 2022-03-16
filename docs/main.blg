@@ -1,0 +1,14 @@
+[0] Config.pm:312> INFO - This is Biber 2.15 (beta)
+[0] Config.pm:315> INFO - Logfile is 'main.blg'
+[169] biber-MSWIN64:330> INFO - === 
+[194] Biber.pm:415> INFO - Reading 'main.bcf'
+[328] Biber.pm:952> INFO - Found 9 citekeys in bib section 0
+[350] Biber.pm:4334> INFO - Processing section 0
+[371] Biber.pm:4523> INFO - Looking for bibtex format file 'references.bib' for section 0
+[400] bibtex.pm:1682> INFO - LaTeX decoding ...
+[442] bibtex.pm:1494> INFO - Found BibTeX data source 'references.bib'
+[541] UCollate.pm:68> INFO - Overriding locale 'cs_CZ' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[542] UCollate.pm:68> INFO - Overriding locale 'cs_CZ' defaults 'variable = shifted' with 'variable = non-ignorable'
+[542] Biber.pm:4162> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'cs_CZ'
+[563] bbl.pm:651> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[570] bbl.pm:754> INFO - Output to main.bbl

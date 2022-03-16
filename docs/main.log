@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2021.3.13)  13 MAR 2022 18:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2021.3.13)  16 MAR 2022 22:24
 entering extended mode
 **./main.tex
 (main.tex
@@ -365,7 +365,7 @@ Package biblatex Info: ... file 'blx-dm.def' found.
 File: blx-dm.def 2020/08/23 v3.15a biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'alphabetic.dbx' not found.
+Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@afterword=\count311
@@ -481,19 +481,10 @@ Package: xparse 2020-10-27 L3 Experimental document command parser
 e-generic.tex))
 File: blx-case-expl3 2020/08/23 v3.15a expl3 case changing code for biblatex
 )
-Package biblatex Info: Trying to load BibTeX backend compatibility...
-Package biblatex Info: ... file 'blx-bibtex.def' found.
-
-(C:\Users\borec\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-bibtex.def
-File: blx-bibtex.def 2020/08/23 v3.15a biblatex compatibility (PK/MW)
-
-Package biblatex Warning: Using fall-back BibTeX(8) backend:
-(biblatex)                functionality may be reduced/unavailable.
-
-)
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
- (C:\Users\borec\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
+
+(C:\Users\borec\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2020/08/23 v3.15a biblatex compatibility (PK/MW)
 \c@textcitecount=\count380
 \c@textcitetotal=\count381
@@ -509,12 +500,12 @@ File: biblatex.def 2020/08/23 v3.15a biblatex compatibility (PK/MW)
 \biburllcskip=\muskip20
 \c@smartand=\count388
 )
-Package biblatex Info: Trying to load bibliography style 'alphabetic'...
-Package biblatex Info: ... file 'alphabetic.bbx' found.
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
 
-(C:\Users\borec\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\alphabetic
-.bbx
-File: alphabetic.bbx 2020/08/23 v3.15a biblatex bibliography style (PK/MW)
+(C:\Users\borec\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric.bb
+x
+File: numeric.bbx 2020/08/23 v3.15a biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
@@ -1251,14 +1242,11 @@ File: czech.lbx 2020/08/23 v3.15a biblatex localization (PK/MW)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Data encoding 'UTF8' specified.
 (biblatex)             Backend will reencode on the fly.
-Package biblatex Info: Input encoding 'utf8' specified.
-Package biblatex Info: Data encoding 'UTF8' specified.
-(biblatex)             Backend will reencode on the fly.
-\openout4 = `main-blx.bib'.
+\openout4 = `main.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'main.bbl' not found.
-No file main.bbl.
+Package biblatex Info: ... file 'main.bbl' found.
+(main.bbl)
 Package biblatex Info: Reference section=0 on input line 47.
 Package biblatex Info: Reference segment=0 on input line 47.
 Package caption Info: Begin \AtBeginDocument code.
@@ -1276,7 +1264,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 
 (titlepage.tex
 Package hyperref Info: Option `pageanchor' set `false' on input line 7.
-<img/logo.png, id=52, 190.7125pt x 191.46532pt>
+<img/logo.png, id=92, 190.7125pt x 191.46532pt>
 File: img/logo.png Graphic file (type png)
 <use img/logo.png>
 Package pdftex.def Info: img/logo.png  used on input line 16.
@@ -1311,7 +1299,7 @@ File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
  <./img/logo.png>] [2
 
 ]
-<zadani.pdf, id=63, 597.50829pt x 845.0471pt>
+<zadani.pdf, id=103, 597.50829pt x 845.0471pt>
 File: zadani.pdf Graphic file (type pdf)
 <use zadani.pdf>
 Package pdftex.def Info: zadani.pdf  used on input line 46.
@@ -1320,7 +1308,7 @@ File: zadani.pdf Graphic file (type pdf)
 <use zadani.pdf>
 Package pdftex.def Info: zadani.pdf  used on input line 46.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-<zadani.pdf, id=66, page=1, 597.50829pt x 845.0471pt>
+<zadani.pdf, id=106, page=1, 597.50829pt x 845.0471pt>
 File: zadani.pdf Graphic file (type pdf)
 <use zadani.pdf, page 1>
 Package pdftex.def Info: zadani.pdf , page1 used on input line 46.
@@ -1393,92 +1381,166 @@ l.91 \openright
 ]
 Kapitola 1.
 LaTeX Font Info:    Trying to load font information for TS1+pplj on input line 
-68.
+70.
 (C:\Users\borec\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1pplj.fd
 File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
 )
 [3] [4]
-Kapitola 2.
-[5
+<img/pin_diagram.png, id=233, 249.3315pt x 154.77824pt>
+File: img/pin_diagram.png Graphic file (type png)
+<use img/pin_diagram.png>
+Package pdftex.def Info: img/pin_diagram.png  used on input line 98.
+(pdftex.def)             Requested size: 176.40439pt x 109.506pt.
 
-] [6]
-Kapitola 3.
+Underfull \vbox (badness 3735) has occurred while \output is active []
+
+ [5 <./img/pin_diagram.png>] [6]
+Kapitola 2.
 [7
 
 ]
-Underfull \vbox (badness 2035) has occurred while \output is active []
+Overfull \hbox (1.9062pt too wide) in paragraph at lines 155--156
+\T1/pplj/m/n/10 mu-seli pro-vést ma-nu-áln¥. Bu-deme tedy ale-spo¬ chtít ma-xi-
+ma-li-zo-vat od-por £ili mi-ni-ma-li-zo-vat proud,|
+ []
 
- [8]
-[9] [10
+<img/mux_diagram.png, id=283, 260.47313pt x 79.04532pt>
+File: img/mux_diagram.png Graphic file (type png)
+<use img/mux_diagram.png>
+Package pdftex.def Info: img/mux_diagram.png  used on input line 166.
+(pdftex.def)             Requested size: 176.40439pt x 53.53297pt.
+[8]
+<img/voltage_divider.png, id=296, 546.843pt x 165.61874pt>
+File: img/voltage_divider.png Graphic file (type png)
+<use img/voltage_divider.png>
+Package pdftex.def Info: img/voltage_divider.png  used on input line 180.
+(pdftex.def)             Requested size: 264.61333pt x 80.14555pt.
+ [9 <./img/mux_diagram.png> <./img/voltage_divider.png>]
+<img/simplified_pin_switches.png, id=318, 507.0945pt x 298.716pt>
+File: img/simplified_pin_switches.png Graphic file (type png)
+<use img/simplified_pin_switches.png>
+Package pdftex.def Info: img/simplified_pin_switches.png  used on input line 19
+9.
+(pdftex.def)             Requested size: 352.81552pt x 207.8463pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10]
+[11 <./img/simplified_pin_switches.png>] [12]
+Kapitola 3.
+[13
+
+] [14
+
+] [15] [16
 
 ]
+LaTeX Font Info:    Trying to load font information for T1+SourceCodePro-TLF on
+ input line 238.
 
-LaTeX Warning: Citation 'einstein' on page 11 undefined on input line 113.
+(C:\Users\borec\AppData\Local\Programs\MiKTeX\tex/latex/sourcecodepro\t1sourcec
+odepro-tlf.fd
+File: T1SourceCodePro-TLF.fd 2018/02/18 (autoinst) Font definitions for T1/Sour
+ceCodePro-TLF.
+)
+LaTeX Font Info:    Font shape `T1/SourceCodePro-TLF/m/n' will be
+(Font)              scaled to size 9.65677pt on input line 238.
+
+Overfull \hbox (17.40134pt too wide) in paragraph at lines 238--238
+[]\T1/pplj/m/n/10.95 Atmel. \T1/pplj/m/it/10.95 8-bit AVR Micro-con-t-roller wi
+th 32K By-tes In-System Pro-gra-m-ma-ble Flash\T1/pplj/m/n/10.95 . AT-mega328P.
+|
+ []
 
 
-LaTeX Warning: Citation 'einstein' undefined on input line 116.
+Overfull \hbox (17.16512pt too wide) in paragraph at lines 238--238
+[]\T1/pplj/m/n/10.95 Texas In-stru-ments. \T1/pplj/m/it/10.95 CD4066B CMOS Quad
+ Bi-la-te-ral Switch\T1/pplj/m/n/10.95 . CD4066B. Da-ta-sheet SCHS051H,|
+ []
 
 
-LaTeX Warning: Citation 'latexcompanion' undefined on input line 116.
+Overfull \hbox (20.61432pt too wide) in paragraph at lines 238--238
+[]\T1/pplj/m/n/10.95 ON Se-mi-con-duc-tor. \T1/pplj/m/it/10.95 Quad Ana-log Swi
+tch/Quad Mul-tiplexer\T1/pplj/m/n/10.95 . MC14066B. Da-ta-sheet SCHS047I,|
+ []
 
-
-LaTeX Warning: Citation 'knuthwebsite' undefined on input line 116.
-
-
-LaTeX Warning: Empty bibliography on input line 117.
-
-[11] [12
+[17] [18
 
 ] (main.lof)
 \tf@lof=\write8
 \openout8 = `main.lof'.
 
- [13] (main.lot)
+ [19] (main.lot)
 \tf@lot=\write9
 \openout9 = `main.lot'.
 
- [14
+ [20
 
-] (main.aux (titlepage.aux))
+] [21
+
+] [22]
+<img/pin_switches.png, id=412, 432.4155pt x 462.528pt>
+File: img/pin_switches.png Graphic file (type png)
+<use img/pin_switches.png>
+Package pdftex.def Info: img/pin_switches.png  used on input line 258.
+(pdftex.def)             Requested size: 441.01773pt x 471.73701pt.
+<img/mux_input_control.png, id=413, 423.984pt x 385.44pt>
+File: img/mux_input_control.png Graphic file (type png)
+<use img/mux_input_control.png>
+Package pdftex.def Info: img/mux_input_control.png  used on input line 265.
+(pdftex.def)             Requested size: 441.01773pt x 400.93636pt.
+<img/boost_converter.png, id=414, 273.4215pt x 469.755pt>
+File: img/boost_converter.png Graphic file (type png)
+<use img/boost_converter.png>
+Package pdftex.def Info: img/boost_converter.png  used on input line 272.
+(pdftex.def)             Requested size: 352.81552pt x 606.18718pt.
+<img/board.png, id=415, 378.81525pt x 589.0005pt>
+File: img/board.png Graphic file (type png)
+<use img/board.png>
+Package pdftex.def Info: img/board.png  used on input line 279.
+(pdftex.def)             Requested size: 441.01773pt x 685.71259pt.
+
+
+LaTeX Warning: Float too large for page by 41.88937pt on input line 283.
+
+[23 <./img/pin_switches.png>] [24 <./img/mux_input_control.png>] [25 <./img/boo
+st_converter.png>] [26 <./img/board.png>] (main.aux (titlepage.aux))
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 47279309734004B0DB6100E51E468242;1515.
-
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
+(rerunfilecheck)             Checksum: BD3C8392AEB1ADC81CEB8BDD98979DA3;3160.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26079 strings out of 479799
- 423588 string characters out of 2869723
- 1193738 words of memory out of 3000000
- 42554 multiletter control sequences out of 15000+200000
- 614226 words of font info for 161 fonts, out of 3000000 for 9000
+ 26291 strings out of 479799
+ 428255 string characters out of 2869723
+ 1231000 words of memory out of 3000000
+ 42671 multiletter control sequences out of 15000+200000
+ 635533 words of font info for 203 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 86i,17n,117p,1866b,2368s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/borec/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
-/Users/borec/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/sourcecodepro/Sour
-ceCodePro-Bold.pfb><C:/Users/borec/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/amsfonts/euler/eufm10.pfb><C:/Users/borec/AppData/Local/Programs/MiKTeX/fo
-nts/type1/public/amsfonts/euler/eurm10.pfb><C:/Users/borec/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/euler/eurm7.pfb><C:/Users/borec/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/fpl/fplbj8a.pfb><C:/Users/borec/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/fpl/fplrc8a.pfb><C:/Users/borec/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/fpl/fplrij8a.pfb><C:/Users/borec/Ap
-pData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/borec
-/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplbi8a.pfb><C:/Users/b
-orec/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/User
-s/borec/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (24 pages, 301804 bytes).
+ 86i,17n,117p,1657b,3140s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/borec/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}{C:
+/Users/borec/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/sourcecodepro/a_lutr
+ty.enc}<C:/Users/borec/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/sourceco
+depro/SourceCodePro-Bold.pfb><C:/Users/borec/AppData/Local/Programs/MiKTeX/font
+s/type1/adobe/sourcecodepro/SourceCodePro-Regular.pfb><C:/Users/borec/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/borec/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eufm10.pfb><C:/
+Users/borec/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/euf
+m7.pfb><C:/Users/borec/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/euler/eurm10.pfb><C:/Users/borec/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/euler/eurm7.pfb><C:/Users/borec/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/euler/eusm10.pfb><C:/Users/borec/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/fpl/fplbj8a.pfb><C:/Users/borec/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/fpl/fplrc8a.pfb><C:/Users/borec/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/fpl/fplrij8a.pfb><C:/Users/borec/AppData/Local/
+Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/borec/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/urw/palatino/uplbi8a.pfb><C:/Users/borec/AppData
+/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/borec/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (36 pages, 948803 bytes).
 PDF statistics:
- 253 PDF objects out of 1000 (max. 8388607)
- 35 named destinations out of 1000 (max. 500000)
- 134 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 510 PDF objects out of 1000 (max. 8388607)
+ 102 named destinations out of 1000 (max. 500000)
+ 254 words of extra memory for PDF output out of 10000 (max. 10000000)
 

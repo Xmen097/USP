@@ -3,6 +3,22 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Schéma vnitřního zapojení IO pinu mikrokontroléru \cite [str.~58]{atmega328}\relax }}{5}{figure.caption.7}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Schéma zapojení mulitplexerů k pinům ZIF patice\relax }}{9}{figure.caption.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Schéma děliče napětí na pinu\relax }}{9}{figure.caption.11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Zjednodušené schéma obvodu připojeného k 8 pinům ZIF patice\relax }}{11}{figure.caption.14}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1}{\ignorespaces Úplné schéma obvodu připojeného k 8 pinům ZIF patice\relax }}{23}{figure.caption.18}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2}{\ignorespaces Úplné schéma zapojení switche, který přepíná vstup do multiplexerů 1 a 2 mezi ADC pinem a 12V.\relax }}{24}{figure.caption.19}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3}{\ignorespaces Úplné schéma obvodu step-up převodníku z 5 na 12 voltů. Obvod zahrnuje 0 ohmové odpory a solder jumper, které umožňují jednoduché odpojení převodníku.\relax }}{25}{figure.caption.20}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4}{\ignorespaces Zapojení plošného spoje. Žludou barvou jsou vyznačeny spoje ve vrchní vrstvě, zelenou spoje spodní vrstvy a červenou spoje jedné z vnitřních vrstev. Druhá vnitřní vrstva není na obrázku zachycena.\relax }}{26}{figure.caption.21}%

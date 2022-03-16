@@ -1,0 +1,239 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{ArduinoMega}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ee5bced252ab77ec8d633c1afda7c5da}{%
+           family={Arduino},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{ee5bced252ab77ec8d633c1afda7c5da}
+      \strng{fullhash}{ee5bced252ab77ec8d633c1afda7c5da}
+      \strng{bibnamehash}{ee5bced252ab77ec8d633c1afda7c5da}
+      \strng{authorbibnamehash}{ee5bced252ab77ec8d633c1afda7c5da}
+      \strng{authornamehash}{ee5bced252ab77ec8d633c1afda7c5da}
+      \strng{authorfullhash}{ee5bced252ab77ec8d633c1afda7c5da}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Arduino Mega}
+      \field{urlday}{15}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.arduino.cc/en/pmwiki.php?n=Main/ArduinoBoardMega
+      \endverb
+      \verb{url}
+      \verb https://www.arduino.cc/en/pmwiki.php?n=Main/ArduinoBoardMega
+      \endverb
+    \endentry
+    \entry{atmega2560}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=bed89e32bb03bc7e71ebbf7729f9d4ce}{%
+           family={Atmel},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{bed89e32bb03bc7e71ebbf7729f9d4ce}
+      \strng{fullhash}{bed89e32bb03bc7e71ebbf7729f9d4ce}
+      \strng{bibnamehash}{bed89e32bb03bc7e71ebbf7729f9d4ce}
+      \strng{authorbibnamehash}{bed89e32bb03bc7e71ebbf7729f9d4ce}
+      \strng{authornamehash}{bed89e32bb03bc7e71ebbf7729f9d4ce}
+      \strng{authorfullhash}{bed89e32bb03bc7e71ebbf7729f9d4ce}
+      \field{extraname}{1}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Datasheet 2549Q–AVR–02/2014}
+      \field{number}{Atmel ATmega640/V-1280/V-1281/V-2560/V-2561/V}
+      \field{title}{8-bit Atmel Microcontroller with 16/32/64KB In-System Programmable Flash}
+    \endentry
+    \entry{atmega328}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=bed89e32bb03bc7e71ebbf7729f9d4ce}{%
+           family={Atmel},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{bed89e32bb03bc7e71ebbf7729f9d4ce}
+      \strng{fullhash}{bed89e32bb03bc7e71ebbf7729f9d4ce}
+      \strng{bibnamehash}{bed89e32bb03bc7e71ebbf7729f9d4ce}
+      \strng{authorbibnamehash}{bed89e32bb03bc7e71ebbf7729f9d4ce}
+      \strng{authornamehash}{bed89e32bb03bc7e71ebbf7729f9d4ce}
+      \strng{authorfullhash}{bed89e32bb03bc7e71ebbf7729f9d4ce}
+      \field{extraname}{2}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Datasheet 7810D-AVR-01/15}
+      \field{number}{ATmega328P}
+      \field{title}{8-bit AVR Microcontroller with 32K Bytes In-System Programmable Flash}
+    \endentry
+    \entry{attiny85}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=bed89e32bb03bc7e71ebbf7729f9d4ce}{%
+           family={Atmel},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{bed89e32bb03bc7e71ebbf7729f9d4ce}
+      \strng{fullhash}{bed89e32bb03bc7e71ebbf7729f9d4ce}
+      \strng{bibnamehash}{bed89e32bb03bc7e71ebbf7729f9d4ce}
+      \strng{authorbibnamehash}{bed89e32bb03bc7e71ebbf7729f9d4ce}
+      \strng{authornamehash}{bed89e32bb03bc7e71ebbf7729f9d4ce}
+      \strng{authorfullhash}{bed89e32bb03bc7e71ebbf7729f9d4ce}
+      \field{extraname}{3}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Datasheet 2586Q-AVR-08/2013}
+      \field{number}{ATtiny25/V / ATtiny45/V / ATtiny85/V}
+      \field{title}{Atmel 8-bit AVR Microcontroller with 2/4/8K Bytes In-System Programmable Flash}
+    \endentry
+    \entry{multiplexer}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=98891ef37ae74f3a00ae9a7c9c316e78}{%
+           family={Instruments},
+           familyi={I\bibinitperiod},
+           given={Texas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{fullhash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{bibnamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{authorbibnamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{authornamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{authorfullhash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \field{extraname}{1}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Datasheet SCHS047I, Rev. 2017}
+      \field{number}{CD4051B}
+      \field{title}{CD405xB CMOS Single 8-Channel Analog Multiplexer/Demultiplexer with Logic-Level Conversion}
+    \endentry
+    \entry{switch2}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=98891ef37ae74f3a00ae9a7c9c316e78}{%
+           family={Instruments},
+           familyi={I\bibinitperiod},
+           given={Texas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{fullhash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{bibnamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{authorbibnamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{authornamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{authorfullhash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \field{extraname}{2}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Datasheet SCHS051H, Rev. 2020}
+      \field{number}{CD4066B}
+      \field{title}{CD4066B CMOS Quad Bilateral Switch}
+    \endentry
+    \entry{AVRprog}{online}{}
+      \name{author}{1}{}{%
+        {{hash=3f41016d4ded05ab7117c4df4c80dfc4}{%
+           family={Neeracher},
+           familyi={N\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{3f41016d4ded05ab7117c4df4c80dfc4}
+      \strng{fullhash}{3f41016d4ded05ab7117c4df4c80dfc4}
+      \strng{bibnamehash}{3f41016d4ded05ab7117c4df4c80dfc4}
+      \strng{authorbibnamehash}{3f41016d4ded05ab7117c4df4c80dfc4}
+      \strng{authornamehash}{3f41016d4ded05ab7117c4df4c80dfc4}
+      \strng{authorfullhash}{3f41016d4ded05ab7117c4df4c80dfc4}
+      \field{sortinit}{N}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{ScratchMonkey - Overview}
+      \field{urlday}{14}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://microtherion.github.io/ScratchMonkey/Overview.html
+      \endverb
+      \verb{url}
+      \verb https://microtherion.github.io/ScratchMonkey/Overview.html
+      \endverb
+    \endentry
+    \entry{step-up}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=f50ffd6a590ec3946c122f340c694e54}{%
+           family={Semiconductor},
+           familyi={S\bibinitperiod},
+           given={ON},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{f50ffd6a590ec3946c122f340c694e54}
+      \strng{fullhash}{f50ffd6a590ec3946c122f340c694e54}
+      \strng{bibnamehash}{f50ffd6a590ec3946c122f340c694e54}
+      \strng{authorbibnamehash}{f50ffd6a590ec3946c122f340c694e54}
+      \strng{authornamehash}{f50ffd6a590ec3946c122f340c694e54}
+      \strng{authorfullhash}{f50ffd6a590ec3946c122f340c694e54}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Datasheet MC34063A/D, Rev. 2010}
+      \field{number}{MC34063A}
+      \field{title}{1.5 A, Step-Up/Down/ Inverting Switching Regulators}
+    \endentry
+    \entry{switch1}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=f50ffd6a590ec3946c122f340c694e54}{%
+           family={Semiconductor},
+           familyi={S\bibinitperiod},
+           given={ON},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{f50ffd6a590ec3946c122f340c694e54}
+      \strng{fullhash}{f50ffd6a590ec3946c122f340c694e54}
+      \strng{bibnamehash}{f50ffd6a590ec3946c122f340c694e54}
+      \strng{authorbibnamehash}{f50ffd6a590ec3946c122f340c694e54}
+      \strng{authornamehash}{f50ffd6a590ec3946c122f340c694e54}
+      \strng{authorfullhash}{f50ffd6a590ec3946c122f340c694e54}
+      \field{extraname}{2}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Datasheet SCHS047I, Rev. 2017}
+      \field{number}{MC14066B}
+      \field{title}{Quad Analog Switch/Quad Multiplexer}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
