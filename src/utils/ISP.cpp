@@ -593,10 +593,6 @@ namespace ISP {
             XTAL_PORT = digitalPinToPort(PIN_XTAL);
             XTAL_OUTR = portOutputRegister(XTAL_PORT);
         }
-
-        pinMode(LED_PMODE, OUTPUT);
-        pinMode(LED_ERR, OUTPUT);
-        pinMode(LED_HB, OUTPUT);
     
     }
 

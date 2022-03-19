@@ -42,14 +42,29 @@ namespace Input {
     }
 
     bool just_pressed(Button btn) {
+        if (btn == Button::ANY) {
+            for (uint8_t i=0; i<4; i++)
+                if (just_pressed((Button)i)) return true;
+            return false;
+        } 
         return (change_states[(uint8_t)btn] == change_state::JUST_CHANGED) && button_states[(uint8_t)btn];
     }
 
     bool just_released(Button btn) {
+        if (btn == Button::ANY) {
+            for (uint8_t i=0; i<4; i++)
+                if (just_released((Button)i)) return true;
+            return false;
+        } 
         return (change_states[(uint8_t)btn] == change_state::JUST_CHANGED) && !button_states[(uint8_t)btn];
     }
 
     bool is_down(Button btn) {
+        if (btn == Button::ANY) {
+            for (uint8_t i=0; i<4; i++)
+                if (is_down((Button)i)) return true;
+            return false;
+        } 
         return (change_states[(uint8_t)btn] != change_state::BOUNCING) && button_states[(uint8_t)btn];
     }
     

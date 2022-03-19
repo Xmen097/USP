@@ -7,7 +7,8 @@ enum class Button {
     LEFT,
     RIGHT,
     OK,
-    BACK
+    BACK,
+    ANY
 };
 
 namespace Input {
