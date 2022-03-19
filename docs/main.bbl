@@ -156,6 +156,68 @@
       \field{number}{CD4066B}
       \field{title}{CD4066B CMOS Quad Bilateral Switch}
     \endentry
+    \entry{attinycore}{online}{}
+      \name{author}{1}{}{%
+        {{hash=91708cc4908f2a9ce6d6cbd32fdd57cd}{%
+           family={Konde},
+           familyi={K\bibinitperiod},
+           given={Spence},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{91708cc4908f2a9ce6d6cbd32fdd57cd}
+      \strng{fullhash}{91708cc4908f2a9ce6d6cbd32fdd57cd}
+      \strng{bibnamehash}{91708cc4908f2a9ce6d6cbd32fdd57cd}
+      \strng{authorbibnamehash}{91708cc4908f2a9ce6d6cbd32fdd57cd}
+      \strng{authornamehash}{91708cc4908f2a9ce6d6cbd32fdd57cd}
+      \strng{authorfullhash}{91708cc4908f2a9ce6d6cbd32fdd57cd}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{ATTinyCore}
+      \field{urlday}{17}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/SpenceKonde/ATTinyCore
+      \endverb
+      \verb{url}
+      \verb https://github.com/SpenceKonde/ATTinyCore
+      \endverb
+    \endentry
+    \entry{image2cpp}{online}{}
+      \name{author}{1}{}{%
+        {{hash=d93b7051718608d68949cb7434439189}{%
+           family={Loenen},
+           familyi={L\bibinitperiod},
+           given={Jasper},
+           giveni={J\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+      }
+      \strng{namehash}{d93b7051718608d68949cb7434439189}
+      \strng{fullhash}{d93b7051718608d68949cb7434439189}
+      \strng{bibnamehash}{d93b7051718608d68949cb7434439189}
+      \strng{authorbibnamehash}{d93b7051718608d68949cb7434439189}
+      \strng{authornamehash}{d93b7051718608d68949cb7434439189}
+      \strng{authorfullhash}{d93b7051718608d68949cb7434439189}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{image2cpp}
+      \field{urlday}{17}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://javl.github.io/image2cpp/
+      \endverb
+      \verb{url}
+      \verb https://javl.github.io/image2cpp/
+      \endverb
+    \endentry
     \entry{AVRprog}{online}{}
       \name{author}{1}{}{%
         {{hash=3f41016d4ded05ab7117c4df4c80dfc4}{%

@@ -9,7 +9,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.1.2}Detekce speciálních pinů}{4}{subsection.1.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.3}Rozpoznání VCC od GND}{5}{subsection.1.1.3}%
+\contentsline {subsection}{\numberline {1.1.3}Rozpoznání VCC od GND}{4}{subsection.1.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1.4}Závěr}{5}{subsection.1.1.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.2}Nahrávání}{5}{section.1.2}%
 \defcounter {refsection}{0}\relax 
@@ -23,32 +25,46 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1.2}Řídící mikroprocesor}{7}{subsection.2.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.3}Funkcionalita pinů}{8}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.3}Základní funkcionalita pinů}{8}{subsection.2.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Zapojení multiplexerů}{8}{section*.8}%
+\contentsline {subsection}{\numberline {2.1.4}Zapojení multiplexerů}{8}{subsection.2.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Napěťový dělič}{9}{section*.10}%
+\contentsline {subsection}{\numberline {2.1.5}Napěťový dělič }{9}{subsection.2.1.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Měření kapacity}{9}{section*.12}%
+\contentsline {subsection}{\numberline {2.1.6}Měření kapacity}{9}{subsection.2.1.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Napětí 12 voltů}{10}{section*.13}%
+\contentsline {subsection}{\numberline {2.1.7}Napětí 12 voltů}{9}{subsection.2.1.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.4}Dodatečný hardware}{11}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.8}Dodatečný hardware}{11}{subsection.2.1.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.5}Plošný spoj}{11}{subsection.2.1.5}%
+\contentsline {subsection}{\numberline {2.1.9}Využití pinů}{11}{subsection.2.1.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.10}Plošný spoj}{11}{subsection.2.1.10}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}Software}{12}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Nízkoúrovňové funkce}{12}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.1}Princip fungování}{12}{subsection.2.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Čtení kapacity }{12}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.2}Nízkoúrovňové funkce}{12}{subsection.2.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Technická dokumentace}{13}{chapter.3}%
+\contentsline {subsection}{\numberline {2.2.3}Interface }{13}{subsection.2.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Závěr}{15}{chapter*.15}%
+\contentsline {subsection}{\numberline {2.2.4}Detektor}{13}{subsection.2.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Seznam použité literatury}{17}{chapter*.16}%
+\contentsline {subsection}{\numberline {2.2.5}Nahrávač }{14}{subsection.2.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Seznam obrázků}{19}{chapter*.16}%
+\contentsline {chapter}{\numberline {3}Technická dokumentace}{17}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Seznam tabulek}{20}{chapter*.16}%
+\contentsline {section}{\numberline {3.1}Použití}{17}{section.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.1}Použití s Arduino IDE}{17}{subsection.3.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.2}Použití s AVRDUDE}{17}{subsection.3.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Nahrávání od USP }{18}{section.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Závěr}{21}{chapter*.16}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Seznam použité literatury}{23}{chapter*.17}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Seznam obrázků}{25}{chapter*.17}%

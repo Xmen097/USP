@@ -2367,6 +2367,9 @@
     <bcf:citekey order="13">switch1</bcf:citekey>
     <bcf:citekey order="14">switch2</bcf:citekey>
     <bcf:citekey order="15">step-up</bcf:citekey>
+    <bcf:citekey order="16">image2cpp</bcf:citekey>
+    <bcf:citekey order="17">atmega2560</bcf:citekey>
+    <bcf:citekey order="18">attinycore</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
