@@ -24,10 +24,6 @@ namespace ISP {
     
     #define SPI_CLOCK     (1000000/6)
     
-    #define BAUDRATE  19200
-    // #define BAUDRATE 115200
-    // #define BAUDRATE 1000000
-    
     #define HWVER 2
     #define SWMAJ 1
     #define SWMIN 18
@@ -493,11 +489,11 @@ namespace ISP {
     void avrisp() {
         uint8_t ch = getch();
         switch (ch) {
-            case '0': // signon
+            case '0': // signon     // 0x30
                 error = 0;
                 empty_reply();
                 break;
-            case '1':
+            case '1':   // 0x31
                 if (getch() == CRC_EOP) {
                     Serial.print((char) STK_INSYNC);
                     Serial.print("AVR ISP");
@@ -508,10 +504,10 @@ namespace ISP {
                     Serial.print((char) STK_NOSYNC);
                 }
                 break;
-            case 'A':
+            case 'A':   // 0x41
                 get_version(getch());
                 break;
-            case 'B':
+            case 'B':   // 0x42
                 fill(20);
                 set_parameters();
                 empty_reply();
@@ -520,12 +516,12 @@ namespace ISP {
                 fill(5);
                 empty_reply();
                 break;
-            case 'P':
+            case 'P':   // 0x50
                 if (!pmode)
                     start_pmode();
                 empty_reply();
                 break;
-            case 'U': // set address (word)
+            case 'U': // set address (word)  // 0x55
                 here = getch();
                 here += 256 * getch();
                 empty_reply();
@@ -580,7 +576,6 @@ namespace ISP {
     }
 
     void setup() {
-        Serial.begin(BAUDRATE);
 
         PIN_MOSI = IO[Detector::get_pin(PinType::MOSI)];
         PIN_MISO = IO[Detector::get_pin(PinType::MISO)];

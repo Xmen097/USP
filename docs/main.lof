@@ -3,7 +3,7 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Schéma vnitřního zapojení IO pinu mikrokontroléru.\cite [str.~58]{atmega328}\relax }}{5}{figure.caption.7}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Schéma vnitřního zapojení IO pinu mikrokontroléru \cite [str.~58]{atmega328}.\relax }}{5}{figure.caption.7}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
@@ -17,18 +17,20 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Diagram fungování detektoru. Dvojité obdélníky značí funkce, které interagují s hardwarem\relax }}{14}{figure.caption.12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Diagram identifikace speciálních pinů\relax }}{15}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Diagram identifikace speciálních pinů\relax }}{14}{figure.caption.13}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Nastavení Arduino IDE pro nahrávání do čipu ATtiny45; zvýrazněny jsou nejdůležitější parametry.\relax }}{18}{figure.caption.14}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Nastavení Arduino IDE pro nahrávání do čipu ATmega328 s externím oscilátorem 16Mhz; zvýrazněny jsou nejdůležitější parametry.\relax }}{18}{figure.caption.14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Nastavení AVRDUDESS pro nahrávání do čipu Attiny45, zvýrazněny jsou nejdůležitější parametry.\relax }}{19}{figure.caption.15}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Nastavení Arduino IDE pro nahrávání do čipu ATtiny84; zvýrazněny jsou nejdůležitější parametry.\relax }}{18}{figure.caption.15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Úplné schéma obvodu připojeného k 8 pinům ZIF patice.\relax }}{29}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Nastavení AVRDUDESS pro nahrávání do čipu Attiny84, zvýrazněny jsou nejdůležitější parametry.\relax }}{19}{figure.caption.16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Úplné schéma zapojení switche, který přepíná vstup do multiplexerů 1 a 2 mezi ADC pinem a 12V.\relax }}{30}{figure.caption.20}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Úplné schéma obvodu připojeného k 8 pinům ZIF patice.\relax }}{29}{figure.caption.20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.3}{\ignorespaces Úplné schéma obvodu step-up převodníku z 5 na 12 voltů. Obvod zahrnuje 0 ohmové odpory a solder jumper, které umožňují jednoduché odpojení převodníku.\relax }}{31}{figure.caption.21}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Úplné schéma zapojení switche, který přepíná vstup do multiplexerů 1 a 2 mezi ADC pinem a 12V.\relax }}{30}{figure.caption.21}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.4}{\ignorespaces Zapojení plošného spoje. Žlutou barvou jsou vyznačeny spoje ve vrchní vrstvě, zelenou spoje spodní vrstvy a červenou spoje jedné z vnitřních vrstev. Druhá vnitřní vrstva není na obrázku zachycena.\relax }}{32}{figure.caption.22}%
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Úplné schéma obvodu step-up převodníku z 5 na 12 voltů. Obvod zahrnuje nula ohmové odpory a solder jumper, které umožňují jednoduché odpojení převodníku.\relax }}{31}{figure.caption.22}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Zapojení plošného spoje. Žlutou barvou jsou vyznačeny spoje ve vrchní vrstvě, zelenou spoje spodní vrstvy a červenou spoje jedné z vnitřních vrstev. Druhá vnitřní vrstva není na obrázku zachycena.\relax }}{32}{figure.caption.23}%

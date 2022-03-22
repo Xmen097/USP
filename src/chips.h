@@ -12,7 +12,8 @@ const char* const chipNames[] PROGMEM = {
     "ATTINY85",
     "ATTINY861",
     "ATTINY167",
-    "ATTINY4313"
+    "ATTINY4313",
+    "ATMEGA32"
 };
 
 
@@ -25,7 +26,8 @@ const Chip ATTINY85 = {8, 7, 6, 5, 0, 255, {3, 255}, {4, 255}, chipNames[4]};
 const Chip ATTINY861 = {20, 0, 1, 2, 9, 255, {5, 14}, {4, 15}, chipNames[5]};
 const Chip ATTINY167 = {20, 6, 2, 7, 19, 255, {5, 14}, {4, 15}, chipNames[6]};
 const Chip ATTINY4313 = {20, 13, 12, 11, 0, 255, {9, 255}, {10, 255}, chipNames[7]};
+const Chip ATMEGA32 = {40, 5, 6, 7, 8, 12, {10, 29}, {9, 30}, chipNames[8]};
 
-const Chip chips[] = {ATMEGA328, ATTINY84, ATTINY1634, ATTINY85, ATTINY861, ATTINY167, ATTINY4313};
+const Chip chips[] = {ATMEGA328, ATTINY84, ATTINY1634, ATTINY85, ATTINY861, ATTINY167, ATTINY4313, ATMEGA32};
 
 #endif

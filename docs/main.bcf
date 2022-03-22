@@ -2350,26 +2350,32 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">references.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">multiplexer</bcf:citekey>
-    <bcf:citekey order="1">switch2</bcf:citekey>
-    <bcf:citekey order="1">switch1</bcf:citekey>
-    <bcf:citekey order="2">atmega328</bcf:citekey>
+    <bcf:citekey order="1">attiny85</bcf:citekey>
+    <bcf:citekey order="1">atmega328</bcf:citekey>
+    <bcf:citekey order="1">atmega2560</bcf:citekey>
+    <bcf:citekey order="1">attiny84</bcf:citekey>
+    <bcf:citekey order="2">multiplexer</bcf:citekey>
+    <bcf:citekey order="2">switch2</bcf:citekey>
+    <bcf:citekey order="2">switch1</bcf:citekey>
     <bcf:citekey order="3">atmega328</bcf:citekey>
-    <bcf:citekey order="4">AVRprog</bcf:citekey>
-    <bcf:citekey order="5">attiny85</bcf:citekey>
+    <bcf:citekey order="4">atmega328</bcf:citekey>
+    <bcf:citekey order="5">AVRprog</bcf:citekey>
+    <bcf:citekey order="6">attiny85</bcf:citekey>
     <bcf:citekey order="6">atmega328</bcf:citekey>
-    <bcf:citekey order="7">atmega2560</bcf:citekey>
-    <bcf:citekey order="8">ArduinoMega</bcf:citekey>
-    <bcf:citekey order="9">atmega2560</bcf:citekey>
-    <bcf:citekey order="10">switch1</bcf:citekey>
-    <bcf:citekey order="11">multiplexer</bcf:citekey>
-    <bcf:citekey order="12">switch2</bcf:citekey>
-    <bcf:citekey order="13">switch1</bcf:citekey>
+    <bcf:citekey order="7">atmega32</bcf:citekey>
+    <bcf:citekey order="8">atmega2560</bcf:citekey>
+    <bcf:citekey order="9">ArduinoMega</bcf:citekey>
+    <bcf:citekey order="10">atmega2560</bcf:citekey>
+    <bcf:citekey order="11">atmega2560</bcf:citekey>
+    <bcf:citekey order="12">switch1</bcf:citekey>
+    <bcf:citekey order="13">multiplexer</bcf:citekey>
     <bcf:citekey order="14">switch2</bcf:citekey>
-    <bcf:citekey order="15">step-up</bcf:citekey>
-    <bcf:citekey order="16">image2cpp</bcf:citekey>
-    <bcf:citekey order="17">atmega2560</bcf:citekey>
-    <bcf:citekey order="18">attinycore</bcf:citekey>
+    <bcf:citekey order="15">switch1</bcf:citekey>
+    <bcf:citekey order="16">switch2</bcf:citekey>
+    <bcf:citekey order="17">step-up</bcf:citekey>
+    <bcf:citekey order="18">image2cpp</bcf:citekey>
+    <bcf:citekey order="19">atmega2560</bcf:citekey>
+    <bcf:citekey order="20">attinycore</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

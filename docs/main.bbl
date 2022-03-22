@@ -68,7 +68,7 @@
       \field{number}{Atmel ATmega640/V-1280/V-1281/V-2560/V-2561/V}
       \field{title}{8-bit Atmel Microcontroller with 16/32/64KB In-System Programmable Flash}
     \endentry
-    \entry{atmega328}{manual}{}
+    \entry{attiny84}{manual}{}
       \name{author}{1}{}{%
         {{hash=bed89e32bb03bc7e71ebbf7729f9d4ce}{%
            family={Atmel},
@@ -81,6 +81,27 @@
       \strng{authornamehash}{bed89e32bb03bc7e71ebbf7729f9d4ce}
       \strng{authorfullhash}{bed89e32bb03bc7e71ebbf7729f9d4ce}
       \field{extraname}{2}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Datasheet 8006K–AVR–10/10}
+      \field{number}{ATtiny24/44/84}
+      \field{title}{8-bit AVR Microcontroller with 2/4/8K Bytes In-System Programmable Flash}
+    \endentry
+    \entry{atmega328}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=bed89e32bb03bc7e71ebbf7729f9d4ce}{%
+           family={Atmel},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{bed89e32bb03bc7e71ebbf7729f9d4ce}
+      \strng{fullhash}{bed89e32bb03bc7e71ebbf7729f9d4ce}
+      \strng{bibnamehash}{bed89e32bb03bc7e71ebbf7729f9d4ce}
+      \strng{authorbibnamehash}{bed89e32bb03bc7e71ebbf7729f9d4ce}
+      \strng{authornamehash}{bed89e32bb03bc7e71ebbf7729f9d4ce}
+      \strng{authorfullhash}{bed89e32bb03bc7e71ebbf7729f9d4ce}
+      \field{extraname}{3}
       \field{sortinit}{A}
       \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
       \field{labelnamesource}{author}
@@ -101,7 +122,7 @@
       \strng{authorbibnamehash}{bed89e32bb03bc7e71ebbf7729f9d4ce}
       \strng{authornamehash}{bed89e32bb03bc7e71ebbf7729f9d4ce}
       \strng{authorfullhash}{bed89e32bb03bc7e71ebbf7729f9d4ce}
-      \field{extraname}{3}
+      \field{extraname}{4}
       \field{sortinit}{A}
       \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
       \field{labelnamesource}{author}
@@ -109,6 +130,27 @@
       \field{note}{Datasheet 2586Q-AVR-08/2013}
       \field{number}{ATtiny25/V / ATtiny45/V / ATtiny85/V}
       \field{title}{Atmel 8-bit AVR Microcontroller with 2/4/8K Bytes In-System Programmable Flash}
+    \endentry
+    \entry{atmega32}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=bed89e32bb03bc7e71ebbf7729f9d4ce}{%
+           family={Atmel},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{bed89e32bb03bc7e71ebbf7729f9d4ce}
+      \strng{fullhash}{bed89e32bb03bc7e71ebbf7729f9d4ce}
+      \strng{bibnamehash}{bed89e32bb03bc7e71ebbf7729f9d4ce}
+      \strng{authorbibnamehash}{bed89e32bb03bc7e71ebbf7729f9d4ce}
+      \strng{authornamehash}{bed89e32bb03bc7e71ebbf7729f9d4ce}
+      \strng{authorfullhash}{bed89e32bb03bc7e71ebbf7729f9d4ce}
+      \field{extraname}{5}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Datasheet DS40002072A, Rev. 2018}
+      \field{number}{ATmega32A}
+      \field{title}{megaAVR ® Data Sheet}
     \endentry
     \entry{multiplexer}{manual}{}
       \name{author}{1}{}{%

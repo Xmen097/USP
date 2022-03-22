@@ -51,7 +51,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.4}Detektor}{13}{subsection.2.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.5}Nahrávač }{14}{subsection.2.2.5}%
+\contentsline {subsection}{\numberline {2.2.5}Nahrávač }{15}{subsection.2.2.5}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Technická dokumentace}{17}{chapter.3}%
 \defcounter {refsection}{0}\relax 
@@ -59,12 +59,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1.1}Použití s Arduino IDE}{17}{subsection.3.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.2}Použití s AVRDUDE}{17}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.2}Použití s AVRDUDE}{19}{subsection.3.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Nahrávání od USP }{18}{section.3.2}%
+\contentsline {section}{\numberline {3.2}Nahrávání od USP }{20}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Závěr}{21}{chapter*.16}%
+\contentsline {chapter}{Závěr}{21}{chapter*.17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Seznam použité literatury}{23}{chapter*.17}%
+\contentsline {chapter}{Seznam použité literatury}{23}{chapter*.18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Seznam obrázků}{25}{chapter*.17}%
+\contentsline {chapter}{Seznam obrázků}{25}{chapter*.18}%
