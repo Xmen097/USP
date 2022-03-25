@@ -25,13 +25,17 @@ void loop() {
     while(!Detector::is_detected());
     Display::write(F("Detecting"));
     Detector::identify_chip();
-    Detector::power_up();
-    ISP::setup();
     Display::write(Detector::detected_chip.name);
-    Input::loop();
-    while(!Input::is_down(Button::ANY)) {
+    if (Detector::detected_chip != UnknownChip) {
+        Detector::power_up();
+        ISP::setup();   
         Input::loop();
-        ISP::loop();
+        while(!Input::is_down(Button::ANY)) {
+            Input::loop();
+            ISP::loop();
+        }
+        Detector::power_down();
+    } else {
+        Input::wait_until(Button:ANY);
     }
-    Detector::power_down();
 }
