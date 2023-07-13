@@ -9,3 +9,5 @@ Sestavené ařízení bylo otestováno na několika mikrokontrolérech, konkrét
 
 Více informací v textu maturitní práce
 https://github.com/Xmen097/USP/blob/master/Maturitn%C3%AD%20pr%C3%A1ce.pdf
+
+![Alt text](docs/Uploader.png)
